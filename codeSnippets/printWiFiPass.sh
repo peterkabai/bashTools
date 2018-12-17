@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # prints the wifi network
 wifiName=$(networksetup -getairportnetwork en1 | cut -c 24-)
