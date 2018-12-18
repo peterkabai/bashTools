@@ -1,2 +1,0 @@
-# bashTools
-Various bash functions
