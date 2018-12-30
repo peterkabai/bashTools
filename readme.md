@@ -1,7 +1,7 @@
-# Shell Scripts Repo
+# Shell Scripts
 
 * Shell scripts
 
 * Code snippets
 
-* My work from Shell Programming class
+* Some work from Shell Programming class and OS class
