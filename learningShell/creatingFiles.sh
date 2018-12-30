@@ -15,3 +15,19 @@ cat testFiles/text.txt > testFiles/textDuplicate.txt
 
 # change the date modified of the file
 touch -t 200301310846.26 testFiles/textDuplicate.txt
+
+# change the directory
+cd .
+
+# print the working directory
+pwd
+
+# create and remove directories
+mkdir folder
+rmdir folder
+
+# change file permissions
+chmod 777 testFiles/users.txt
+
+# remove a file
+rm testFiles/empty.txt
