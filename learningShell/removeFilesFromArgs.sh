@@ -1,5 +1,3 @@
-# Chapter 11 Exercises 1 --- Peter Kabai
-
 max=10
 num="$#"
 
