@@ -1,18 +1,18 @@
-# Setup
+# setup
 clear
 text="This string has spaces"
 echo Original String:
 echo $text
 
-# Using tr
+# using tr
 text=$(echo $text | tr -d ' ')
 echo Using tr:
 echo $text
 
-# Reset
+# reset
 text="This string has spaces"
 
-# Using sed
+# using sed
 text=$(echo $text | sed 's/ //g')
 echo Using sed:
 echo $text

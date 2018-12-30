@@ -1,2 +1,2 @@
-# Multiply the first argument by 2
+# multiply the first argument by 2
 echo $[$1*2]
