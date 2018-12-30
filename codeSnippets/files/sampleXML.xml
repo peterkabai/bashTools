@@ -1,0 +1,20 @@
+<xml title='Test File' description='This is a test file'>
+	<test control='list' label='Test 1'>
+		<subtest id='1'/>
+		<subtest id='2'/>
+		<subtest id='3'/>
+	</test>
+	<test control='list' label='Test 2'>
+		<subtest id='1'/>
+		<subtest id='2'/>
+		<subtest id='3'/>
+		<subtest id='4'/>
+	</test>
+	<test control='list' label='Test 3'>
+		<subtest id='1'/>
+		<subtest id='2'/>
+	</test>
+	<test control='list' label='Test 4'>
+		<subtest id='1'/>
+	</test>
+</xml>
