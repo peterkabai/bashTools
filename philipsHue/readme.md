@@ -1,3 +1,15 @@
+# Philips Hue CLI
+
+This project is a CLI for the Philips Hue bridge, and compatible bulbs.
+
+* Set the hue
+* Set the brightness
+* Set the saturation
+* Set the color temperature
+* Start color loops and scenes
+
+# Basic Philips Hue API Attributes
+
 ### Hue:
 Ranges from 0 to 65535
 Set via the "hue" attribute
