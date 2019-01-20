@@ -7,54 +7,62 @@ setColor() {
 		
 		# basic colors
 	   "red")
-			echo "Color not avaliable"
+			setHue $1 0
+			setSaturation $1 100
 	      ;;
 	   "blue")
-			echo "Color not avaliable"
+			setHue $1 250
+			setSaturation $1 100
 	      ;;
 	   "yellow")
-			echo "Color not avaliable"
+			setHue $1 50
+			setSaturation $1 100
 	      ;;
 	   "green")
-			echo "Color not avaliable"
+			setHue $1 100
+			setSaturation $1 50
 	      ;;
 	   "pink")
-			echo "Color not avaliable"
+			setHue $1 330
+			setSaturation $1 100
 	      ;;
 	   "purple")
-			echo "Color not avaliable"
+			setHue $1 275
+			setSaturation $1 50
 	      ;;
 	   "orange")
-			echo "Color not avaliable"
+			setHue $1 30
+			setSaturation $1 100
 	      ;;
 	   "cyan")
-			echo "Color not avaliable"
+			setHue $1 175
+			setSaturation $1 50
 	      ;;
 			
 		# shades of white
 	   "warmest")
-	      echo "Color not avaliable"
+	      setTemp $1 2200
 	      ;;
 		"candle")
-	      echo "Color not avaliable"
+	      setTemp $1 2300
 	      ;;
 		"warm")
-	      echo "Color not avaliable"
+	      setTemp $1 2700
 	      ;;
 	   "neutral")
-	      echo "Color not avaliable"
+	      setTemp $1 4000
 	      ;;
 	   "flourescent")
-	      echo "Color not avaliable"
+	      setTemp $1 4450
 	      ;;
 	   "cool")
-	      echo "Color not avaliable"
+	      setTemp $1 5000
 	      ;;
 		"sunlight")
-	      echo "Color not avaliable"
+	      setTemp $1 5850
 	      ;;
 	   "coolest")
-	      echo "Color not avaliable"
+	      setTemp $1 6500
 	      ;;
 	
 		# custom colors
@@ -68,22 +76,28 @@ setColor() {
 	      echo "Color not avaliable"
 	      ;;
 		"shasta")
-			echo "Color not avaliable"
+			setHue $1 178
+			setSaturation $1 100
 	      ;;
 		"blood")
-			echo "Color not avaliable"
+			setHue $1 350
+			setSaturation $1 52
 	      ;;
 		"sunset")
-			echo "Color not avaliable"
+			setHue $1 17
+			setSaturation $1 100
 	      ;;
 		"sky")
-			echo "Color not avaliable"
+			setHue $1 200
+			setSaturation $1 91
 	      ;;
 		"rose")
-			echo "Color not avaliable"
+			setHue $1 348
+			setSaturation $1 100
 	      ;;
 		"azure")
-			echo "Color not avaliable"
+			setHue $1 205
+			setSaturation $1 87
 	      ;;
 		
 		# error, color not found
