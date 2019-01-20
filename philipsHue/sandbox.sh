@@ -21,3 +21,11 @@ setColor 1 "green"
 toggleState 1
 sleep 3
 toggleState 1
+
+setColor 1 "coolest"
+sleep 2
+setColor 1 "cool"
+sleep 2
+setColor 1 "warm"
+sleep 2
+setColor 1 "warmest"
