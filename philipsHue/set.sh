@@ -5,8 +5,10 @@ source api.sh
 # sets color temperature to a specific warmth
 setTemp() {
 	# temperature ranges between 2200K and 6500K
-	ct=$(echo $((($1-2200)*(500-154)/(6500-2200)+154)))
-	put '{"ct":'$ct'}' $2
+	#ct=$(echo $((($2-2200)*(500-154)/(6500-2200)+154)))
+	ct=$(echo $((($2-2200)*(154-500)/(6500-2200)+500)))
+	echo $ct
+	put '{"ct":'$ct'}' $1
 }
 
 # sets the transition speed in seconds
