@@ -3,7 +3,7 @@
 source api.sh
 source set.sh
 
-# loops through colors for a diven duration
+# loops through colors for a given duration
 simpleLoop() {
 	echo "Not yet implimented"
 }
