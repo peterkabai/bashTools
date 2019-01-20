@@ -5,9 +5,7 @@ source api.sh
 # sets color temperature to a specific warmth
 setTemp() {
 	# temperature ranges between 2200K and 6500K
-	#ct=$(echo $((($2-2200)*(500-154)/(6500-2200)+154)))
 	ct=$(echo $((($2-2200)*(154-500)/(6500-2200)+500)))
-	echo $ct
 	put '{"ct":'$ct'}' $1
 }
 
@@ -56,16 +54,6 @@ turnOn() {
 # turns the selected light off
 turnOff() {
 	put '{"on":false}' $1
-}
-
-# loops through colors for a diven duration
-simpleLoop() {
-	echo "Not yet implimented"
-}
-
-# loops through colors, each color for a given duration
-timedLoop() {
-	echo "Not yet implimented"
 }
 
 # sends a data json to the specified light
