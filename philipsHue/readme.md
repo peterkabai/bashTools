@@ -8,6 +8,14 @@ This project is a CLI for the Philips Hue bridge, and compatible bulbs.
 * Set the color temperature
 * Start color loops and scenes
 
+# CLI Usage
+
+setColor 1 "red"  
+setTemp 1 6500  
+setBrightness 1 50  
+
+More detailed info coming soon...
+
 # Basic Philips Hue API Attributes
 
 ### Hue:
